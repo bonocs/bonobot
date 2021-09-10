@@ -40,7 +40,6 @@ class DurationConverter(commands.Converter):
 @bot.event
 async def on_ready():
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=("anthony grow hair")))
-    logger.warning(f"BotLaunched::")
 
 @bot.command()
 async def s(ctx):
